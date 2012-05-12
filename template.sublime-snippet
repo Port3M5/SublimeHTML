@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+<!doctype html>
+<html>
+	<head>
+		<title>${1:$TM_FILENAME}</title>
+		<meta charset="utf-8">
+		<meta author="${2:$TM_FULLNAME}">
+		<meta description="$3">
+		<meta keywords="$4">
+	</head>
+	<body>
+		$0
+	</body>
+</html>
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>html</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php, text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>HTML Template</description>
+</snippet>
