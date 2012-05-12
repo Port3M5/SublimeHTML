@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<label for="${1/ /-/g}">$1</label>
+<input type="${2:text}" id="${1/ /-/g}" name="${1/ /-/g}" value="$3">
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>input</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php, text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Input with label</description>
+</snippet>

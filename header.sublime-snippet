@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<header${1: id="$2"}${3: class="$4"}>
+	$0
+</header><!--/$2 $4-->
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>header</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php, text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Header with closing comment</description>
+</snippet>
