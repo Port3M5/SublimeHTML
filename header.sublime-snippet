@@ -2,7 +2,7 @@
     <content><![CDATA[
 <header${1: id="$2"}${3: class="$4"}>
 	$0
-</header><!--/$2 $4-->
+</header>${5:<!--/$2 $4-->}
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>header</tabTrigger>
